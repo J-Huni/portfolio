@@ -1,10 +1,12 @@
+import Layout from './layout/Layout'
+import MainSection from './components/sections/MainSection'
 import './styles/globals.css'
 
 function App() {
   return (
-    <div className='container mx-lg m-auto'>
-      <div className='w-full h-full bg-black'></div>
-    </div>
+    <Layout>
+      <MainSection />
+    </Layout>
   )
 }
 

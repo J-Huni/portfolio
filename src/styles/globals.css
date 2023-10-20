@@ -17,3 +17,11 @@ html,
 #root {
   background-color: #2d313f;
 }
+
+div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}

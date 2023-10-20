@@ -4,7 +4,7 @@ const Avatar = () => {
   return (
     <div
       style={{ backgroundImage: 'url("/assets/imgs/avatar.jpg")', backgroundSize: 'cover' }}
-      className='w-52 h-52 rounded-[50%]'
+      className='w-20 h-20 rounded-[50%] mr-5'
     />
   )
 }

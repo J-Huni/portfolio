@@ -1,11 +1,11 @@
 import Layout from './layout/Layout'
-import MainSection from './components/sections/MainSection'
 import './styles/globals.css'
+import ProfileSection from './components/sections/ProfileSection'
 
 function App() {
   return (
     <Layout>
-      <MainSection />
+      <ProfileSection />
     </Layout>
   )
 }

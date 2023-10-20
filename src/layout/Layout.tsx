@@ -1,5 +1,6 @@
 import React from 'react'
 import Intro from './Intro'
+import Menu from './Menu'
 
 interface Props {
   children: React.ReactNode
@@ -7,8 +8,9 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className='w-full h-full flex'>
+    <div className='w-full h-full flex p-4'>
       <Intro />
+      <Menu />
       {children}
     </div>
   )

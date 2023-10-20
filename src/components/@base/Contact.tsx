@@ -7,9 +7,9 @@ interface Props {
 
 const Contact = ({ text, icon }: Props) => {
   return (
-    <div className='flex items-center text-white gap-5 ml-5 mt-5'>
+    <div className='flex items-center text-white gap-3 mt-2'>
       {icon}
-      <p className='text-xl'>{text}</p>
+      <p className='text-lg'>{text}</p>
     </div>
   )
 }

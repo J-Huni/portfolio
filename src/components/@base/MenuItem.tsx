@@ -1,8 +1,9 @@
 import React, { useCallback, useRef } from 'react'
+import { Menus } from '../../types/common'
 
 interface Props {
   icon: React.ReactNode
-  tooltip: string
+  tooltip: Menus | 'GITHUB' | 'LINKED IN'
   handleClick?: () => void
 }
 
@@ -26,7 +27,7 @@ const MenuItem = ({ icon, tooltip, handleClick }: Props) => {
   return (
     <div className='flex justify-center items-center m-2 relative'>
       <div
-        className='absolute left-12 bg-white p-2 rounded-md shadow-lg'
+        className='absolute left-12 bg-white p-2 rounded-md shadow-lg z-10'
         style={{ visibility: 'hidden', opacity: 0, transition: '.2s ease-out' }}
         ref={tooltipRef}
       >

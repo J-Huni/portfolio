@@ -2,15 +2,16 @@ import MenuItem from '../components/@base/MenuItem'
 import { useCallback } from 'react'
 import {
   RectangleStackIcon,
-  ClipboardDocumentListIcon,
   IdentificationIcon,
   ChevronDoubleLeftIcon,
+  ListBulletIcon,
 } from '@heroicons/react/20/solid'
 import { Menus } from '../types/common'
 import useStore from '../store/store'
 
 const Menu = () => {
-  const changeMenu = useStore((state) => state.setNow)
+  const { now, setNow: changeMenu } = useStore((state) => state)
+
   const openGitHub = useCallback(() => {
     window.open('https://github.com/J-Huni')
   }, [])
@@ -31,16 +32,19 @@ const Menu = () => {
             icon={<IdentificationIcon />}
             tooltip='PROFILE'
             handleClick={() => handleMenus('PROFILE')}
+            active={now === 'PROFILE'}
+          />
+          <MenuItem
+            icon={<ListBulletIcon />}
+            tooltip='HISTORY'
+            handleClick={() => handleMenus('HISTORY')}
+            active={now === 'HISTORY'}
           />
           <MenuItem
             icon={<RectangleStackIcon />}
             tooltip='PORTFOLIO'
             handleClick={() => handleMenus('PORTFOLIO')}
-          />
-          <MenuItem
-            icon={<ClipboardDocumentListIcon />}
-            tooltip='CONTACT'
-            handleClick={() => handleMenus('CONTACT')}
+            active={now === 'PORTFOLIO'}
           />
         </div>
       </div>

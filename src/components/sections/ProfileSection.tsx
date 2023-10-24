@@ -1,4 +1,3 @@
-import React from 'react'
 import Section from '../Section'
 import SectionTitle from '../SectionTitle'
 import SkillsArea from '../SkillsArea'
@@ -18,6 +17,7 @@ const ProfileSection = () => {
         <p>급변하는 Javascript 환경에서 트렌드에 뒤쳐지지 않으려,</p>
         <p>항상 배우고 받아들이는 자세로</p>
         <p>어제보다 나은 오늘의 제가 되려 노력하고 있습니다.</p>
+        <br />
         <p>읽어주셔서 감사합니다.</p>
       </div>
       <SectionTitle text='Tech' colorText='Skills' />

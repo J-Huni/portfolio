@@ -1,9 +1,11 @@
-import React from 'react'
+interface Props {
+  img: string
+}
 
-const Avatar = () => {
+const Avatar = ({ img }: Props) => {
   return (
     <div
-      style={{ backgroundImage: 'url("/assets/imgs/avatar.jpg")', backgroundSize: 'cover' }}
+      style={{ backgroundImage: `url("${img}")`, backgroundSize: 'contain' }}
       className='w-20 h-20 rounded-[50%] mr-5'
     />
   )

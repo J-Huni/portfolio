@@ -14,7 +14,7 @@ const Intro = () => {
   return (
     <div className='flex justify-start flex-col gap-4 max-w-md w-full pt-10 m-5'>
       <div className='flex gap-2'>
-        <Avatar />
+        <Avatar img='/assets/imgs/avatar.jpg' />
         <div className='flex flex-col gap-2 justify-center'>
           <p className='text-4xl text-white font-bold tracking-[-0.05em] mb-4 leading-tight'>
             이지훈 / {yearly}년차 <br />
@@ -27,8 +27,8 @@ const Intro = () => {
         <Contact icon={<EnvelopeIcon className='w-10 h-10' />} text='biorope@naver.com' />
       </div>
       <div className='rounded-md mt-5'>
-        <Desc text='현재 보시는 사이트는 ' />
-        <Desc text='typescript / vite js / React js / tailwind css등으로' />
+        <Desc text='현재 보시는 사이트는' />
+        <Desc text='Typescript / Vite js / React js / Tailwind 등으로' />
         <Desc text='제작 하였습니다.' />
         <br />
         <Desc text='궁금하신 점이 있거나, 저에게 관심이 있으시다면' />

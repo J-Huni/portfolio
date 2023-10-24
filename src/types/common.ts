@@ -1,1 +1,1 @@
-export type Menus = 'PROFILE' | 'PORTFOLIO' | 'CONTACT'
+export type Menus = 'PROFILE' | 'HISTORY' | 'PORTFOLIO' | 'CONTACT'

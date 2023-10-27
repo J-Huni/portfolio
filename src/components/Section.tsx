@@ -19,7 +19,7 @@ const Section = ({ children }: Props) => {
       transition={{ duration: 1 }}
     >
       {children}
-      <div className='w-1 h-1' ref={obTarget} />
+      <div className='w-1 h-1 absolute' ref={obTarget} />
       {!observe && (
         <ArrowDownCircleIcon className='w-10 h-10 sticky bottom-0 animate-bounce opacity-60 ' />
       )}

@@ -5,7 +5,7 @@ interface Props {
 const Avatar = ({ img }: Props) => {
   return (
     <div
-      style={{ backgroundImage: `url("${img}")`, backgroundSize: 'contain' }}
+      style={{ backgroundImage: `url("${img}")`, backgroundSize: 'cover' }}
       className='w-20 h-20 rounded-[50%] mr-5'
     />
   )

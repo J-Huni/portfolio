@@ -24,7 +24,7 @@ const HistorySection = () => {
           <hr className='w-[2px] bg-slate-500 mx-[9px] h-full' />
         </div>
         <div className='bg-slate-200 border-2 w-full p-4 rounded-md h-full'>
-          <p className='text-3xl font-bold text-blue-950'>2019.11 ~</p>
+          <p className='text-3xl font-bold text-blue-950'>2019.11 ~ 재직중</p>
           <div className='flex gap-4  items-center border-b-2 border-slate-300 py-4 mb-4'>
             <img src='/assets/imgs/helix_logo.png' className='p-2' />
             <div className='ml-2'>

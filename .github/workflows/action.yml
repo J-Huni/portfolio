@@ -25,7 +25,12 @@ jobs:
           node-version: 18.x
 
       - name: install dependencies
-        run: yarn install
+        run: npm install
 
       - name: build project
-        run: yarn build
+        run: npm run build
+
+      - name: change static build files
+        run: |
+          rm -rf /opt/deploy/portfolio 
+          cp -r ./dist /opt/deploy/portfolio

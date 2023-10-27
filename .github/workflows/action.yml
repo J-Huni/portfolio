@@ -1,0 +1,29 @@
+name: portfolio ci/dc
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  checkout:
+    name: checkout
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+  deploy:
+    name: build
+    runs-on: self-hosted
+
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: test
+        run: |
+          pwd
+          echo 'runner test'

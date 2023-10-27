@@ -13,8 +13,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-  deploy:
+  build:
     name: build
+    needs: checkout
     runs-on: [daniel_runner]
 
     steps:

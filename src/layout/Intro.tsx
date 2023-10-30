@@ -12,17 +12,17 @@ const Intro = () => {
   )
 
   return (
-    <div className='flex justify-start flex-col gap-4 max-w-md w-full pt-10 m-5'>
+    <div className='flex justify-start flex-col gap-4 max-w-xs w-full pt-10 m-5'>
       <div className='flex gap-2'>
         <Avatar img='/assets/imgs/avatar.jpg' />
         <div className='flex flex-col gap-2 justify-center'>
-          <p className='text-4xl text-white font-bold tracking-[-0.05em] mb-4 leading-tight'>
+          <p className='text-2xl text-white font-bold tracking-[-0.05em] mb-4 leading-tight'>
             이지훈 / {yearly}년차 <br />
             Front-End 개발자
           </p>
         </div>
       </div>
-      <div className='flex justify-start gap-3'>
+      <div className='flex flex-col justify-start gap-3'>
         <Contact icon={<PhoneIcon className='w-10 h-10' />} text='010-5097-1412' />
         <Contact icon={<EnvelopeIcon className='w-10 h-10' />} text='biorope@naver.com' />
       </div>

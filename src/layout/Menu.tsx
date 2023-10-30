@@ -12,8 +12,8 @@ import useStore from '../store/store'
 const Menu = () => {
   const { now, setNow: changeMenu } = useStore((state) => state)
 
-  const openGitHub = useCallback(() => {
-    window.open('https://github.com/J-Huni')
+  const openWindow = useCallback((link: string) => {
+    window.open(link)
   }, [])
 
   const handleMenus = useCallback(
@@ -50,14 +50,14 @@ const Menu = () => {
       </div>
       <div className='grid grid-cols-2 border-t-[1px] border-slate-700'>
         <MenuItem
-          icon={<img src='/assets/imgs/github-mark-white.png' />}
+          icon={<img src='/assets/imgs/linkedin_logo.png' className='text-white' />}
           tooltip='LINKED IN'
-          handleClick={openGitHub}
+          handleClick={() => openWindow('https://www.linkedin.com/in/daniel-lee-805957206/')}
         />
         <MenuItem
           icon={<img src='/assets/imgs/github-mark-white.png' />}
           tooltip='GITHUB'
-          handleClick={openGitHub}
+          handleClick={() => openWindow('https://github.com/J-Huni')}
         />
       </div>
     </div>

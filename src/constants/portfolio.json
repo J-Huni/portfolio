@@ -1,0 +1,57 @@
+[
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["Next JS", "Zustand", "Tailwind Css", "Nest JS"],
+    "title": "kt wiz 통합운영센터"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_2.jpg",
+    "techSkills": ["Next js", "Strapi", "Tailwind Css"],
+    "title": "광주 재난 안전 전광판"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_3.jpg",
+    "techSkills": ["React js", "Zustand", "Mui"],
+    "title": "MDCall 서비스 CMS"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_4.jpg",
+    "techSkills": ["React js", "MediaPipe", "WebRTC"],
+    "title": "POC Project(Matrix View)"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_5.jpg",
+    "techSkills": ["React js", "ReduxToolKit", "ReactHookForm", "Mui"],
+    "title": "Rangtalk 온라인 청약"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["React js", "ReduxToolKit", "ReactQuery", "Mui"],
+    "title": "Rangtalk CMS"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["React js", "ReduxToolKit", "Formik", "Mui"],
+    "title": "Rangtalk 렌딩 사이트"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["Next js", "Mui"],
+    "title": "Helixtech 홈페이지"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["React js", "ReduxThunk"],
+    "title": "kbl cms (구)"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["React js", "ReduxThunk"],
+    "title": "kbl 통합 사이트(구)"
+  },
+  {
+    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "techSkills": ["React js", "ReduxSaga"],
+    "title": "ktwiz 리뉴얼"
+  }
+]

@@ -10,7 +10,7 @@ const useSlider = (imgs: string[]) => {
   const [target, animate] = useAnimate()
 
   const elements = useMemo(() => {
-    return arr.map((v, idx) => <img src={v} key={idx} className={`w-1/2 pr-4 h-56 img-${idx}`} />)
+    return arr.map((v, idx) => <img src={v} key={idx} className={`w-1/2 h-56 img-${idx}`} />)
   }, [arr])
 
   useEffect(() => {
@@ -20,13 +20,12 @@ const useSlider = (imgs: string[]) => {
       const copiedArr = [...arr]
       setTimeout(() => {
         const firstElement = copiedArr.shift()
-
         if (firstElement) {
           copiedArr.push(firstElement)
+
           setArr(copiedArr)
         }
-
-        animate(`.img-0`, { width: '50%', paddingRight: '1rem' }, { duration: 0 })
+        animate(`.img-0`, { width: '50%' }, { duration: 0 })
       }, 300)
     }, 2000)
 
@@ -42,7 +41,7 @@ const Slider = ({ imgs }: Props) => {
   const { elements, target } = useSlider(imgs)
 
   return (
-    <div className='flex justify-start overflow-x-scroll ' ref={target}>
+    <div className='flex justify-between gap-4 overflow-x-hidden bg-slate-200 p-4' ref={target}>
       {elements}
     </div>
   )

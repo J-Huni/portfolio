@@ -1,57 +1,134 @@
 [
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["Next JS", "Zustand", "Tailwind Css", "Nest JS"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "kt wiz 통합운영센터"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_2.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_2.jpg",
     "techSkills": ["Next js", "Strapi", "Tailwind Css"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "광주 재난 안전 전광판"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_3.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_3.jpg",
     "techSkills": ["React js", "Zustand", "Mui"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "MDCall 서비스 CMS"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_4.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_4.jpg",
     "techSkills": ["React js", "MediaPipe", "WebRTC"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "POC Project(Matrix View)"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_5.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_5.jpg",
     "techSkills": ["React js", "ReduxToolKit", "ReactHookForm", "Mui"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "Rangtalk 온라인 청약"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["React js", "ReduxToolKit", "ReactQuery", "Mui"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "Rangtalk CMS"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["React js", "ReduxToolKit", "Formik", "Mui"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "Rangtalk 렌딩 사이트"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["Next js", "Mui"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "Helixtech 홈페이지"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["React js", "ReduxThunk"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "kbl cms (구)"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["React js", "ReduxThunk"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "kbl 통합 사이트(구)"
   },
   {
-    "img": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
     "techSkills": ["React js", "ReduxSaga"],
+    "imgs": [
+      "/assets/imgs/portfolio/portfolio_1.jpg",
+      "/assets/imgs/portfolio/portfolio_2.jpg",
+      "/assets/imgs/portfolio/portfolio_3.jpg",
+      "/assets/imgs/portfolio/portfolio_4.jpg",
+      "/assets/imgs/portfolio/portfolio_5.jpg"
+    ],
     "title": "ktwiz 리뉴얼"
   }
 ]

@@ -1,5 +1,6 @@
 export interface PortfolioItem {
-  img: string
+  imgs: string[]
+  thumbnail: string
   title: string
   techSkills: string[]
 }

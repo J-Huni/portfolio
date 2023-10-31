@@ -12,7 +12,7 @@ const Intro = () => {
   )
 
   return (
-    <div className='flex justify-start flex-col gap-4 max-w-xs w-full pt-5 m-2'>
+    <div className='flex justify-start flex-col gap-4 max-w-xs w-full p-4 mt-5'>
       <div className='flex gap-2'>
         <Avatar img='/assets/imgs/avatar.jpg' />
         <div className='flex flex-col gap-2 justify-center'>

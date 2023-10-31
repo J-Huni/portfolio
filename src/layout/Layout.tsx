@@ -8,7 +8,7 @@ interface Props {
 
 const Layout = ({ children }: Props) => {
   return (
-    <div className='w-full h-full flex p-4'>
+    <div className='w-full h-full flex'>
       <Intro />
       <Menu />
       {children}

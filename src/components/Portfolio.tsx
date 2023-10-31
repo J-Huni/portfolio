@@ -60,6 +60,7 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
         height: '100%',
         top: 0,
         left: 0,
+        overflowY: 'scroll',
       },
       { duration: 0.2 }
     )
@@ -99,11 +100,10 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
             top: '50%',
             backgroundColor: 'rgba(0,0,0,0.4)',
             zIndex: 2000,
-            overflowY: 'scroll',
           }}
         >
-          <div className='p-4 bg-white m-auto w-3/4 h-4/5 my-16 rounded-lg'>
-            <div className='flex items-center'>
+          <div className='bg-white m-auto w-3/4 h-4/5 my-16 rounded-lg overflow-y-scroll'>
+            <div className='flex items-center p-4'>
               <p className='pl-10 text-center text-2xl font-bold w-full'>{content[now].title}</p>
               <XMarkIcon className='w-10 h-10 cursor-pointer' onClick={onClose} />
             </div>
@@ -115,6 +115,13 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
               ))}
             </div>
             {open && <Slider imgs={content[now].imgs} />}
+            <div className='p-4 '>
+              {content[now].desc.map((v, idx) => (
+                <p className='text-xl my-2' key={idx}>
+                  - {v}
+                </p>
+              ))}
+            </div>
           </div>
         </div>
       )}

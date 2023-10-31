@@ -3,4 +3,5 @@ export interface PortfolioItem {
   thumbnail: string
   title: string
   techSkills: string[]
+  desc: string[]
 }

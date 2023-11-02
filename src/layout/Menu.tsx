@@ -5,12 +5,14 @@ import {
   IdentificationIcon,
   ChevronDoubleLeftIcon,
   ListBulletIcon,
+  ChevronDoubleRightIcon,
 } from '@heroicons/react/20/solid'
 import { Menus } from '../types/common'
 import useStore from '../store/store'
+import Avatar from '../components/@base/Avatar'
 
 const Menu = () => {
-  const { now, setNow: changeMenu } = useStore((state) => state)
+  const { now, setNow: changeMenu, mbMode, setMbMode } = useStore((state) => state)
 
   const openWindow = useCallback((link: string) => {
     window.open(link)
@@ -23,10 +25,24 @@ const Menu = () => {
     [changeMenu]
   )
 
+  const handleMbMode = () => {
+    setMbMode(!mbMode)
+  }
+
   return (
     <div className='flex flex-col border-x-2 border-l-slate-700 border-r-slate-700'>
-      <div className='flex h-full items-center'>
-        <ChevronDoubleLeftIcon className='text-white w-12 h-12' />
+      {mbMode && (
+        <div className='pl-6 py-4'>
+          <Avatar img='/assets/imgs/avatar.jpg' />
+        </div>
+      )}
+      <div className='flex h-full items-center justify-center'>
+        {!mbMode && (
+          <ChevronDoubleLeftIcon
+            className='text-white w-12 h-12 hover:animate-pulse cursor-pointer'
+            onClick={handleMbMode}
+          />
+        )}
         <div className='h-full flex flex-col justify-center'>
           <MenuItem
             icon={<IdentificationIcon />}
@@ -47,17 +63,25 @@ const Menu = () => {
             active={now === 'PORTFOLIO'}
           />
         </div>
+        {mbMode && (
+          <ChevronDoubleRightIcon
+            className='text-white w-12 h-12 hover:animate-pulse cursor-pointer'
+            onClick={handleMbMode}
+          />
+        )}
       </div>
       <div className='grid grid-cols-2 border-t-[1px] border-slate-700'>
         <MenuItem
           icon={<img src='/assets/imgs/linkedin_logo.png' className='text-white' />}
-          tooltip='LINKED IN'
-          handleClick={() => openWindow('https://www.linkedin.com/in/daniel-lee-805957206/')}
+          tooltip='LinkedIn'
+          handleClick={() => openWindow('https://www.linkedin.com/in/frontenddaniel/')}
+          tipToTop
         />
         <MenuItem
           icon={<img src='/assets/imgs/github-mark-white.png' />}
           tooltip='GITHUB'
           handleClick={() => openWindow('https://github.com/J-Huni')}
+          tipToTop
         />
       </div>
     </div>

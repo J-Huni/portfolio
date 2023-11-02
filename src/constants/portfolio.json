@@ -34,14 +34,14 @@
     "domain": "https://led.gjkicox.or.kr"
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_3.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_htalk_02.png",
     "techSkills": ["React js", "Typescript", "Zustand", "Mui"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_htalk_01.png",
+      "/assets/imgs/portfolio/portfolio_htalk_02.png",
+      "/assets/imgs/portfolio/portfolio_htalk_03.png",
+      "/assets/imgs/portfolio/portfolio_htalk_04.png",
+      "/assets/imgs/portfolio/portfolio_htalk_05.png"
     ],
     "title": "MDCall 서비스 CMS",
     "desc": [
@@ -51,14 +51,13 @@
     ]
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_4.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_kpop_02.png",
     "techSkills": ["React js", "Typescript", "MediaPipe", "WebRTC"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_kpop_01.png",
+      "/assets/imgs/portfolio/portfolio_kpop_02.png",
+      "/assets/imgs/portfolio/portfolio_kpop_03.png",
+      "/assets/imgs/portfolio/portfolio_kpop_04.png"
     ],
     "title": "POC Project(Matrix View)",
     "desc": [
@@ -70,44 +69,46 @@
     ]
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_5.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_sign_04.png",
     "techSkills": ["React js", "Typescript", "ReduxToolKit", "ReactHookForm", "Mui"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_sign_01.png",
+      "/assets/imgs/portfolio/portfolio_sign_02.png",
+      "/assets/imgs/portfolio/portfolio_sign_03.png",
+      "/assets/imgs/portfolio/portfolio_sign_04.png"
     ],
     "title": "Rangtalk 온라인 청약",
-    "desc": []
+    "desc": [
+      "ReactHookForm 을 활용한 Form Value 모델링 최적화",
+      "ReduxToolKit query lib 사용 http 통신 모듈 통합"
+    ]
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_admin_02.png",
     "techSkills": ["React js", "Typescript", "ReduxToolKit", "ReactQuery", "Grommet"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_admin_01.png",
+      "/assets/imgs/portfolio/portfolio_admin_02.png",
+      "/assets/imgs/portfolio/portfolio_admin_03.png"
     ],
     "title": "Rangtalk CMS",
     "desc": [
       "Component Customized Styling을 위한 Grommet 사용",
       "Service Module ReactQuery로 통합",
       "Typescript 로 Data Modeling 확립"
-    ]
+    ],
+
+    "domain": "https://admin.rangtalk.com"
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_rang_01.png",
     "techSkills": ["React js", "Typescript", "ReduxToolKit", "Mui"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_rang_01.png",
+      "/assets/imgs/portfolio/portfolio_rang_02.png",
+      "/assets/imgs/portfolio/portfolio_rang_03.png",
+      "/assets/imgs/portfolio/portfolio_rang_04.png",
+      "/assets/imgs/portfolio/portfolio_rang_05.png"
     ],
     "title": "Rangtalk 렌딩 사이트",
     "desc": [
@@ -115,50 +116,36 @@
       "Style framework(Material UI) 사용",
       "Components Recycle 적극 사용",
       "Atomic Design Pattern"
-    ]
+    ],
+    "domain": "https://www.rangtalk.com"
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_helix_01.png",
     "techSkills": ["Next js", "Typescript"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_helix_01.png",
+      "/assets/imgs/portfolio/portfolio_helix_02.png",
+      "/assets/imgs/portfolio/portfolio_helix_03.png",
+      "/assets/imgs/portfolio/portfolio_helix_04.png",
+      "/assets/imgs/portfolio/portfolio_helix_05.png"
     ],
     "title": "Helixtech 홈페이지",
     "desc": [
       "SEO 활용을 위한 SSR 프로젝트로 구성",
       "Next js 도입",
       "Typescript를 활용한 타입 Definition 강화"
-    ]
-  },
-  {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["React js", "ReduxThunk"],
-    "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
     ],
-    "title": "kbl 통합 사이트(구) 및 cms",
-    "desc": [
-      "Sub Domain을 활용하여 각 구단 별 도메인을 따로 관리",
-      "기존 Redux Saga의 복잡성을 간략화 하고자 Redux Thunk 도입"
-    ]
+    "domain": "https://www.helixtech.co.kr/"
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
+    "thumbnail": "/assets/imgs/portfolio/portfolio_wiz_01.png",
     "techSkills": ["React js", "ReduxSaga"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_wiz_01.png",
+      "/assets/imgs/portfolio/portfolio_wiz_02.png",
+      "/assets/imgs/portfolio/portfolio_wiz_03.png",
+      "/assets/imgs/portfolio/portfolio_wiz_04.png",
+      "/assets/imgs/portfolio/portfolio_wiz_05.png"
     ],
     "title": "ktwiz 리뉴얼",
     "desc": [
@@ -166,6 +153,7 @@
       "Redux saga를 활용한 service module 통합",
       "Modern Javascript 도입",
       "기타 유지보수 업무"
-    ]
+    ],
+    "domain": "https://www.ktwiz.co.kr"
   }
 ]

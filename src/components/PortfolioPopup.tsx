@@ -52,9 +52,10 @@ const PortfolioPopup = ({ content, onClose, open }: Props) => {
           ))}
         </div>
         <div ref={obTarget} />
-        {!observe && (
-          <ArrowDownCircleIcon className='sticky w-10 h-10 left-5 bottom-5 animate-bounce opacity-60 ' />
-        )}
+        <ArrowDownCircleIcon
+          className='sticky w-10 h-10 left-5 bottom-5 animate-bounce  '
+          style={{ opacity: observe ? 0 : 0.6 }}
+        />
       </div>
     </div>
   )

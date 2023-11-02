@@ -1,16 +1,13 @@
 import { ArrowDownCircleIcon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 import useObserver from '../hooks/useObserver'
-import { useRef } from 'react'
 
 interface Props {
   children: React.ReactNode
 }
 
 const Section = ({ children }: Props) => {
-  const obTarget = useRef<HTMLDivElement | null>(null)
-
-  const observe = useObserver(obTarget)
+  const { obTarget, observe } = useObserver()
 
   return (
     <motion.div

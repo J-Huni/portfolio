@@ -1,43 +1,41 @@
 [
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["Next JS", "Zustand", "Tailwind Css", "Nest JS"],
+    "thumbnail": "/assets/imgs/portfolio/portfolio_iocenter_01.png",
+    "techSkills": ["Next JS", "Typescript", "Zustand", "Tailwind Css", "Nest JS"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_iocenter_01.png",
+      "/assets/imgs/portfolio/portfolio_iocenter_02.png",
+      "/assets/imgs/portfolio/portfolio_iocenter_03.png",
+      "/assets/imgs/portfolio/portfolio_iocenter_04.png"
     ],
     "title": "kt wiz 통합운영센터",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "데이터 시각화를 위한 D3 차트 사용",
+      "Tailwind css 활용",
+      "Express 기반 Nest JS 프레임워크를 사용하여 Back-end 구성",
+      "Google Calendar API로 공휴일 및 일정 표시"
     ]
   },
   {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_2.jpg",
-    "techSkills": ["Next js", "Strapi", "Tailwind Css"],
+    "thumbnail": "/assets/imgs/portfolio/portfolio_gj_02.png",
+    "techSkills": ["Next js", "Typescript", "Strapi"],
     "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
+      "/assets/imgs/portfolio/portfolio_gj_01.png",
+      "/assets/imgs/portfolio/portfolio_gj_02.png",
+      "/assets/imgs/portfolio/portfolio_gj_03.png"
     ],
     "title": "광주 재난 안전 전광판",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
-    ]
+      "BFF(Back-end For Front-end) Pattern 사용",
+      "Strapi js로 백엔드 구성",
+      "공공데이터(Weather, Traffic, AirPollution)를 출력",
+      "공공데이터 호출 후 Row Data를 쌓음"
+    ],
+    "domain": "https://led.gjkicox.or.kr"
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_3.jpg",
-    "techSkills": ["React js", "Zustand", "Mui"],
+    "techSkills": ["React js", "Typescript", "Zustand", "Mui"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -47,15 +45,14 @@
     ],
     "title": "MDCall 서비스 CMS",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "최근 Global State 관리에서 주목받는 Zustand 사용",
+      "Atomic Design Pattern",
+      "제한된 망에서 제한된 사용자에게 제공"
     ]
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_4.jpg",
-    "techSkills": ["React js", "MediaPipe", "WebRTC"],
+    "techSkills": ["React js", "Typescript", "MediaPipe", "WebRTC"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -65,15 +62,16 @@
     ],
     "title": "POC Project(Matrix View)",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "WebRTC로 Byte Stream을 비트단위로 출력",
+      "약 20개의 Streaming 진행",
+      "WebCam 사용자 카메라 사용",
+      "Google Media Pipe로 사용자의 모션 캡쳐",
+      "관절 데이터로 서버와 통신 후 점수 매김"
     ]
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_5.jpg",
-    "techSkills": ["React js", "ReduxToolKit", "ReactHookForm", "Mui"],
+    "techSkills": ["React js", "Typescript", "ReduxToolKit", "ReactHookForm", "Mui"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -82,16 +80,11 @@
       "/assets/imgs/portfolio/portfolio_5.jpg"
     ],
     "title": "Rangtalk 온라인 청약",
-    "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
-    ]
+    "desc": []
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["React js", "ReduxToolKit", "ReactQuery", "Mui"],
+    "techSkills": ["React js", "Typescript", "ReduxToolKit", "ReactQuery", "Grommet"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -101,15 +94,14 @@
     ],
     "title": "Rangtalk CMS",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "Component Customized Styling을 위한 Grommet 사용",
+      "Service Module ReactQuery로 통합",
+      "Typescript 로 Data Modeling 확립"
     ]
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["React js", "ReduxToolKit", "Formik", "Mui"],
+    "techSkills": ["React js", "Typescript", "ReduxToolKit", "Mui"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -119,15 +111,15 @@
     ],
     "title": "Rangtalk 렌딩 사이트",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "Global State를 편하게 사용하기 위한 서드파티 RTK(Redux Tool Kit) 도입",
+      "Style framework(Material UI) 사용",
+      "Components Recycle 적극 사용",
+      "Atomic Design Pattern"
     ]
   },
   {
     "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["Next js", "Mui"],
+    "techSkills": ["Next js", "Typescript"],
     "imgs": [
       "/assets/imgs/portfolio/portfolio_1.jpg",
       "/assets/imgs/portfolio/portfolio_2.jpg",
@@ -137,10 +129,9 @@
     ],
     "title": "Helixtech 홈페이지",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "SEO 활용을 위한 SSR 프로젝트로 구성",
+      "Next js 도입",
+      "Typescript를 활용한 타입 Definition 강화"
     ]
   },
   {
@@ -153,30 +144,10 @@
       "/assets/imgs/portfolio/portfolio_4.jpg",
       "/assets/imgs/portfolio/portfolio_5.jpg"
     ],
-    "title": "kbl cms (구)",
+    "title": "kbl 통합 사이트(구) 및 cms",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
-    ]
-  },
-  {
-    "thumbnail": "/assets/imgs/portfolio/portfolio_1.jpg",
-    "techSkills": ["React js", "ReduxThunk"],
-    "imgs": [
-      "/assets/imgs/portfolio/portfolio_1.jpg",
-      "/assets/imgs/portfolio/portfolio_2.jpg",
-      "/assets/imgs/portfolio/portfolio_3.jpg",
-      "/assets/imgs/portfolio/portfolio_4.jpg",
-      "/assets/imgs/portfolio/portfolio_5.jpg"
-    ],
-    "title": "kbl 통합 사이트(구)",
-    "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "Sub Domain을 활용하여 각 구단 별 도메인을 따로 관리",
+      "기존 Redux Saga의 복잡성을 간략화 하고자 Redux Thunk 도입"
     ]
   },
   {
@@ -191,10 +162,10 @@
     ],
     "title": "ktwiz 리뉴얼",
     "desc": [
-      "동해물과 백두산이 마르고 닳도록",
-      "하느님이 보우하사 우리 나라 만세",
-      "무궁화 삼천리 화려강산",
-      "대한사람 대한으로 길이 보전하세"
+      "기존 jsp로 이루어진 프로젝트를 React로 전환",
+      "Redux saga를 활용한 service module 통합",
+      "Modern Javascript 도입",
+      "기타 유지보수 업무"
     ]
   }
 ]

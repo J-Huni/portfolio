@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
-const useObserver = (ref: React.MutableRefObject<Element | null>) => {
+const useObserver = () => {
+  const obTarget = useRef<HTMLDivElement | null>(null)
   const [observe, setObserve] = useState<boolean>(false)
 
   useEffect(() => {
@@ -11,14 +12,14 @@ const useObserver = (ref: React.MutableRefObject<Element | null>) => {
       { threshold: 0.3 }
     )
 
-    ref.current && ob.observe(ref.current)
+    obTarget.current && ob.observe(obTarget.current)
 
     return () => {
       ob.disconnect()
     }
-  }, [ref])
+  }, [obTarget])
 
-  return observe
+  return { obTarget, observe }
 }
 
 export default useObserver

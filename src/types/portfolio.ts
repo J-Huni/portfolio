@@ -4,4 +4,5 @@ export interface PortfolioItem {
   title: string
   techSkills: string[]
   desc: string[]
+  domain?: string
 }

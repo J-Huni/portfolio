@@ -7,7 +7,7 @@ interface Props {
 
 const useSlider = (imgs: string[]) => {
   const [arr, setArr] = useState<string[]>(imgs)
-  const [target, animate] = useAnimate()
+  const [target, animate] = useAnimate<HTMLDivElement>()
 
   const elements = useMemo(() => {
     return arr.map((v, idx) => <img src={v} key={idx} className={`w-1/2 h-56 img-${idx}`} />)
@@ -41,7 +41,7 @@ const Slider = ({ imgs }: Props) => {
   const { elements, target } = useSlider(imgs)
 
   return (
-    <div className='flex justify-between gap-4 overflow-x-hidden bg-slate-200 p-4' ref={target}>
+    <div className='flex justify-between gap-4 overflow-x-hidden bg-slate-200 py-4' ref={target}>
       {elements}
     </div>
   )

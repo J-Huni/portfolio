@@ -10,7 +10,7 @@ export interface PageSlice {
 
 export const createPageSlice: Slice<PageSlice> = (set) => ({
   now: 'PROFILE',
-  mbMode: true,
+  mbMode: false,
   setNow: (now) => set({ now }),
   setMbMode: (mbMode) => set({ mbMode }),
 })

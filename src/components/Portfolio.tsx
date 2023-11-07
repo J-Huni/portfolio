@@ -105,7 +105,12 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
       </div>
       <div className='grid bg-slate-200 rounded-lg lg:hidden grid-cols-4 gap-4 max-sm:grid-cols-2'>
         {content.map((v, idx) => (
-          <img src={v.thumbnail} key={idx} className='w-full h-[100px]' onClick={onOpen} />
+          <img
+            src={v.thumbnail}
+            key={idx}
+            className='w-full h-[100px] cursor-pointer'
+            onClick={onOpen}
+          />
         ))}
       </div>
     </div>

@@ -14,7 +14,7 @@ const Layout = ({ children }: Props) => {
     <div className='w-full h-full flex'>
       {!mb && <Intro />}
       <Menu />
-      {children}
+      <div className='p-4 w-full h-full flex '>{children}</div>
     </div>
   )
 }

@@ -4,13 +4,12 @@ import { motion } from 'framer-motion'
 
 interface Props {
   icon: React.ReactNode
-  tooltip: Menus | 'GITHUB' | 'LinkedIn'
+  tooltip?: Menus
   handleClick?: () => void
   active?: boolean
-  tipToTop?: true
 }
 
-const MenuItem = ({ icon, tooltip, handleClick, active, tipToTop }: Props) => {
+const MenuItem = ({ icon, tooltip, handleClick, active }: Props) => {
   const tooltipRef = useRef<HTMLDivElement>(null)
 
   const onHover = useCallback(() => {
@@ -29,15 +28,15 @@ const MenuItem = ({ icon, tooltip, handleClick, active, tipToTop }: Props) => {
 
   return (
     <div className='flex justify-center items-center relative'>
-      <div
-        className={`absolute ${
-          tipToTop ? '-top-12' : 'left-12'
-        } bg-white p-2 rounded-md shadow-lg z-20`}
-        style={{ visibility: 'hidden', opacity: 0, transition: '.2s ease-out' }}
-        ref={tooltipRef}
-      >
-        <p>{tooltip}</p>
-      </div>
+      {tooltip && (
+        <div
+          className={`absolute left-12 bg-white p-2 rounded-md shadow-lg z-20`}
+          style={{ visibility: 'hidden', opacity: 0, transition: '.2s ease-out' }}
+          ref={tooltipRef}
+        >
+          <p>{tooltip}</p>
+        </div>
+      )}
       <div
         className='cursor-pointer relative hover:-skew-y-12 duration-300 text-white w-10 h-10 p-2 z-10'
         onMouseOver={onHover}

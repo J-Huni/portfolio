@@ -71,15 +71,11 @@ const Menu = () => {
       <div className='grid grid-cols-2 border-t-[1px] border-slate-700'>
         <MenuItem
           icon={<img src='/assets/imgs/linkedin_logo.png' className='text-white' />}
-          tooltip='LinkedIn'
           handleClick={() => openWindow('https://www.linkedin.com/in/frontenddaniel/')}
-          tipToTop
         />
         <MenuItem
           icon={<img src='/assets/imgs/github-mark-white.png' />}
-          tooltip='GITHUB'
           handleClick={() => openWindow('https://github.com/J-Huni')}
-          tipToTop
         />
       </div>
     </div>

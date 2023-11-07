@@ -30,7 +30,7 @@ const MenuItem = ({ icon, tooltip, handleClick, active }: Props) => {
     <div className='flex justify-center items-center relative'>
       {tooltip && (
         <div
-          className={`absolute left-12 bg-white p-2 rounded-md shadow-lg z-20`}
+          className={`absolute left-12 bg-white p-2 rounded-md shadow-lg z-20 max-sm:hidden`}
           style={{ visibility: 'hidden', opacity: 0, transition: '.2s ease-out' }}
           ref={tooltipRef}
         >

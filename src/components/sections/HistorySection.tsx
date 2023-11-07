@@ -4,13 +4,13 @@ import SectionTitle from '../SectionTitle'
 
 const Career = ({ text, date }: { text: string; date: string }) => {
   return (
-    <div className='flex items-center gap-3 mb-4'>
-      <div className='h-full'>
+    <div className='flex items-center gap-3 mb-4 max-lg:justify-start max-lg:items-start'>
+      <div className='h-full max-lg:pt-3 max-md:pt-2'>
         <div className='w-1 h-1 bg-blue-400 p-1 rounded-[50%]' />
       </div>
-      <div className='flex max-lg:flex-col-reverse gap-2 max-lg:gap-0'>
+      <div className='flex max-lg:flex-col gap-2 max-lg:gap-0'>
         <span className='text-2xl font-bold max-md:text-sm'>{text}</span>
-        <span className='text-2xl font-bold max-md:text-sm'>[ {date} ]</span>
+        <span className='text-2xl font-bold max-lg:text-[16px] max-md:text-[11px]'>[ {date} ]</span>
       </div>
     </div>
   )
@@ -21,13 +21,13 @@ const HistorySection = () => {
     <Section>
       <SectionTitle text='HISTORY' />
       <div className='flex gap-4'>
-        <div>
+        <div className='max-md:hidden'>
           <Dot />
           <hr className='w-[2px] bg-slate-500 mx-[9px] h-full' />
         </div>
         <div className='bg-slate-200 border-2 w-full p-4 rounded-md h-full'>
           <p className='text-3xl font-bold text-blue-950 max-md:text-lg'>2019.11 ~ 재직중</p>
-          <div className='flex gap-4 items-center border-b-2 border-slate-300 py-4 mb-4 max-md:flex-col max-md:items-start'>
+          <div className='flex gap-4 items-center border-b-2 border-slate-300 py-4 mb-4  max-sm:flex-col max-sm:items-start'>
             <img src='/assets/imgs/helix_logo.png' className='p-2 max-md:p-0' />
             <div className='ml-2'>
               <p className='text-2xl font-bold max-md:mb-4 max-md:text-lg'>헬릭스테크</p>

@@ -28,7 +28,7 @@ const MenuItem = ({ icon, tooltip, handleClick, active, tipToTop }: Props) => {
   }, [])
 
   return (
-    <div className='flex justify-center items-center m-2 relative'>
+    <div className='flex justify-center items-center relative'>
       <div
         className={`absolute ${
           tipToTop ? '-top-12' : 'left-12'
@@ -39,7 +39,7 @@ const MenuItem = ({ icon, tooltip, handleClick, active, tipToTop }: Props) => {
         <p>{tooltip}</p>
       </div>
       <div
-        className='cursor-pointer relative hover:-skew-y-12 duration-300 text-white w-12 h-12 p-2 z-10'
+        className='cursor-pointer relative hover:-skew-y-12 duration-300 text-white w-10 h-10 p-2 z-10'
         onMouseOver={onHover}
         onMouseLeave={onLeave}
         onClick={handleClick}

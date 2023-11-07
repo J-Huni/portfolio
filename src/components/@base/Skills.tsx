@@ -11,8 +11,11 @@ const Skills = ({ src, name }: Props) => (
     animate={{ opacity: 1 }}
     transition={{ duration: 0.8 }}
   >
-    <img src={src} className='w-[100px] h-[100px] m-auto' />
-    <p className='font-bold text-center mt-3'>{name}</p>
+    <img
+      src={src}
+      className='w-full h-full max-w-[90px] max-h-[90px] m-auto max-sm:w-full max-sm:h-3/4'
+    />
+    <p className='font-bold text-center mt-3 max-md:text-[10px]'>{name}</p>
   </motion.div>
 )
 

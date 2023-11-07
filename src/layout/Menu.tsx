@@ -30,20 +30,18 @@ const Menu = () => {
   }
 
   return (
-    <div className='flex flex-col border-x-2 border-l-slate-700 border-r-slate-700'>
-      {mbMode && (
-        <div className='pl-6 py-4'>
-          <Avatar img='/assets/imgs/avatar.jpg' />
-        </div>
-      )}
+    <div className='flex flex-col border-x-2 border-l-slate-700 border-r-slate-700 mr-4'>
+      <div className={`m-auto ${mbMode ? 'block' : 'hidden max-xl:block'}`}>
+        <Avatar img='/assets/imgs/avatar.jpg' />
+      </div>
       <div className='flex h-full items-center justify-center'>
         {!mbMode && (
           <ChevronDoubleLeftIcon
-            className='text-white w-12 h-12 hover:animate-pulse cursor-pointer'
+            className='text-white w-12 h-12 hover:animate-pulse cursor-pointer max-xl:hidden'
             onClick={handleMbMode}
           />
         )}
-        <div className='h-full flex flex-col justify-center'>
+        <div className='h-full flex flex-col justify-center px-2'>
           <MenuItem
             icon={<IdentificationIcon />}
             tooltip='PROFILE'
@@ -65,7 +63,7 @@ const Menu = () => {
         </div>
         {mbMode && (
           <ChevronDoubleRightIcon
-            className='text-white w-12 h-12 hover:animate-pulse cursor-pointer'
+            className='text-white w-10 h-10 hover:animate-pulse cursor-pointer max-xl:hidden'
             onClick={handleMbMode}
           />
         )}

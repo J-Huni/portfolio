@@ -1,12 +1,13 @@
 interface Props {
   img: string
+  isIntro?: true
 }
 
-const Avatar = ({ img }: Props) => {
+const Avatar = ({ img, isIntro }: Props) => {
   return (
     <div
       style={{ backgroundImage: `url("${img}")`, backgroundSize: 'cover' }}
-      className='w-20 h-20 rounded-[50%] mr-5'
+      className={`${isIntro ? 'w-12 h-12 mb-10' : 'w-10 h-10'} rounded-[50%] mt-5 `}
     />
   )
 }

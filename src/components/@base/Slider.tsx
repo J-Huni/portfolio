@@ -41,7 +41,10 @@ const Slider = ({ imgs }: Props) => {
   const { elements, target } = useSlider(imgs)
 
   return (
-    <div className='flex justify-between gap-4 overflow-x-hidden bg-slate-200 py-4' ref={target}>
+    <div
+      className='flex justify-between gap-4 overflow-x-hidden bg-slate-200 py-4 max-md:py-2 max-md:gap-2'
+      ref={target}
+    >
       {elements}
     </div>
   )

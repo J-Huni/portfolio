@@ -29,7 +29,7 @@ const ListItem = ({ level, location, changeLevel, thumbnail, highlight, onOpen }
       onMouseOver={changeLevel}
       onClick={onOpen}
     >
-      <img src={thumbnail} className='w-full h-full p-4' />
+      <img src={thumbnail} className='w-full h-full p-2' />
       {!highlight && (
         <div className='w-full h-full absolute left-0 top-0 bg-slate-200 opacity-50' />
       )}
@@ -88,9 +88,9 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
   }, [level])
 
   return (
-    <div className='h-full w-full p-4 bg-slate-200 rounded-lg' ref={scope}>
+    <div className='w-full p-4 bg-slate-200 rounded-lg' ref={scope}>
       {content && <PortfolioPopup content={content[now]} onClose={onClose} open={open} />}
-      <div className='relative flex justify-center my-10 h-80 m-auto w-full'>
+      <div className='relative flex justify-center mb-32 h-80 m-auto w-full max-lg:hidden'>
         {content.map((v, idx) => (
           <ListItem
             thumbnail={v.thumbnail}
@@ -101,6 +101,11 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
             highlight={idx === now}
             onOpen={onOpen}
           />
+        ))}
+      </div>
+      <div className='grid bg-slate-200 rounded-lg lg:hidden grid-cols-4 gap-4 max-sm:grid-cols-2'>
+        {content.map((v, idx) => (
+          <img src={v.thumbnail} key={idx} className='w-full h-[100px]' onClick={onOpen} />
         ))}
       </div>
     </div>

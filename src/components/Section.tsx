@@ -11,7 +11,7 @@ const Section = ({ children }: Props) => {
 
   return (
     <motion.div
-      className='m-auto container mx-auto max-w-screen-xl rounded-xl bg-white p-12 shadow-xl overflow-y-scroll max-h-full relative opacity-0'
+      className='m-auto container max-w-screen-xl rounded-xl bg-white p-12 shadow-xl overflow-y-scroll max-h-full relative opacity-0 max-md:p-4'
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >

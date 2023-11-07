@@ -6,7 +6,7 @@ const ProfileSection = () => {
   return (
     <Section>
       <SectionTitle text='About' colorText='Me' />
-      <div className='py-5 text-2xl font-bold'>
+      <div className='py-5 text-2xl font-bold max-md:text-sm max-md:py-0 max-md:mb-5'>
         <p>안녕하세요.</p>
         <p>저는 Front-End 직군에서 업무를 진행하고 있습니다.</p>
         <br />
@@ -21,7 +21,7 @@ const ProfileSection = () => {
         <p>읽어주셔서 감사합니다.</p>
       </div>
       <SectionTitle text='Tech' colorText='Skills' />
-      <p className='text-center text-2xl font-bold mb-10'>
+      <p className='text-center text-2xl font-bold mb-10 max-md:text-sm max-md:mb-4'>
         업무에 필요한 다양한 스킬을 보유하고 있습니다.
       </p>
       <SkillsArea />

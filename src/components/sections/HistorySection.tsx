@@ -8,8 +8,10 @@ const Career = ({ text, date }: { text: string; date: string }) => {
       <div className='h-full'>
         <div className='w-1 h-1 bg-blue-400 p-1 rounded-[50%]' />
       </div>
-      <span className='text-2xl font-bold'>{text}</span>
-      <span className='text-2xl font-bold'>[ {date} ]</span>
+      <div className='flex max-lg:flex-col-reverse gap-2 max-lg:gap-0'>
+        <span className='text-2xl font-bold max-md:text-sm'>{text}</span>
+        <span className='text-2xl font-bold max-md:text-sm'>[ {date} ]</span>
+      </div>
     </div>
   )
 }
@@ -24,15 +26,17 @@ const HistorySection = () => {
           <hr className='w-[2px] bg-slate-500 mx-[9px] h-full' />
         </div>
         <div className='bg-slate-200 border-2 w-full p-4 rounded-md h-full'>
-          <p className='text-3xl font-bold text-blue-950'>2019.11 ~ 재직중</p>
-          <div className='flex gap-4  items-center border-b-2 border-slate-300 py-4 mb-4'>
-            <img src='/assets/imgs/helix_logo.png' className='p-2' />
+          <p className='text-3xl font-bold text-blue-950 max-md:text-lg'>2019.11 ~ 재직중</p>
+          <div className='flex gap-4 items-center border-b-2 border-slate-300 py-4 mb-4 max-md:flex-col max-md:items-start'>
+            <img src='/assets/imgs/helix_logo.png' className='p-2 max-md:p-0' />
             <div className='ml-2'>
-              <p className='text-2xl font-bold'>헬릭스테크</p>
-              <div className='flex gap-4'>
-                <span className='text-xl font-bold'>소속: 시스템 솔루션</span>
-                <span className='text-xl font-bold'>직책: 주임연구원</span>
-                <span className='text-xl font-bold'>포지션: Front-End Developer</span>
+              <p className='text-2xl font-bold max-md:mb-4 max-md:text-lg'>헬릭스테크</p>
+              <div className='flex gap-4 max-lg:flex-col max-lg:mt-4 max-lg:gap-1'>
+                <span className='text-xl font-bold max-md:text-sm'>소속: 시스템 솔루션</span>
+                <span className='text-xl font-bold max-md:text-sm'>직책: 주임연구원</span>
+                <span className='text-xl font-bold max-md:text-sm'>
+                  포지션: Front-End Developer
+                </span>
               </div>
             </div>
           </div>

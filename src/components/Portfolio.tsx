@@ -109,7 +109,10 @@ const Portfolio = ({ content = myPortFolio as PortfolioItem[] }: Props) => {
             src={v.thumbnail}
             key={idx}
             className='w-full h-[100px] cursor-pointer'
-            onClick={onOpen}
+            onClick={() => {
+              onOpen()
+              handleCard(idx + 1)
+            }}
           />
         ))}
       </div>

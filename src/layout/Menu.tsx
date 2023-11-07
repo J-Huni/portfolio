@@ -30,7 +30,7 @@ const Menu = () => {
   }
 
   return (
-    <div className='flex flex-col border-x-2 border-l-slate-700 border-r-slate-700 mr-4'>
+    <div className='flex flex-col border-x-2 border-l-slate-700 border-r-slate-700'>
       <div className={`m-auto ${mbMode ? 'block' : 'hidden max-xl:block'}`}>
         <Avatar img='/assets/imgs/avatar.jpg' />
       </div>

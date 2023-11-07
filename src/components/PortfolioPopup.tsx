@@ -26,7 +26,7 @@ const PortfolioPopup = ({ content, onClose, open }: Props) => {
         zIndex: 2000,
       }}
     >
-      <div className='bg-white m-auto w-3/4 h-4/5 my-16 rounded-lg overflow-y-scroll relative max-md:w-11/12 max-md:h-5/6'>
+      <div className='bg-white m-auto w-3/4 h-4/5 my-16 rounded-lg overflow-y-scroll relative max-md:w-11/12'>
         <div className='flex items-center p-4 sticky top-0 bg-white border-b-2 border-slate-200'>
           {content.domain && (
             <a href='#' className='hover:scale-105' onClick={() => window.open(content.domain)}>
@@ -42,7 +42,7 @@ const PortfolioPopup = ({ content, onClose, open }: Props) => {
         <div className='flex gap-4 justify-center p-4 max-md:p-2 max-md:gap-1'>
           {content.techSkills.map((skill, idx) => (
             <span
-              className='bg-blue-500 py-2 px-4 rounded-full font-bold text-white max-md:text-[9px] max-md:py-1 max-md:px-2'
+              className='bg-blue-500 py-2 px-4 rounded-full font-bold text-white max-sm:text-[5px] max-lg:text-[10px] max-sm:py-[1px] max-sm:px-[3px] max-md:py-1 max-md:px-2'
               key={idx}
             >
               {skill}
